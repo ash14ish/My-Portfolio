@@ -37,5 +37,5 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
-  background-size: 0.7% 10%;
+  background-size: 1px 2px;
 }
