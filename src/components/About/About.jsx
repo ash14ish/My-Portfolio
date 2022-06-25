@@ -20,12 +20,12 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Fresher Level</small>
+              <small>Fresher</small>
             </article>
 
             <article className="about__card">
               <GiGraduateCap className="about__icon" />
-              <h5>Edu. Qualification</h5>
+              <h5>Qualification</h5>
               <small>B.Tech(78%)</small>
             </article>
 
@@ -34,18 +34,18 @@ const About = () => {
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
-
-            <p>
-              Hello everyone. I live in Delhi. I have done my graduation in
-              B.Tech. in EEE from GTBIT, Delhi. I am aspiring to use my
-              technical <a href="#skillsdetails">skills</a> to excel my career
-              as a Front-End-Developer in IT.
-            </p>
-
-            <a href="#contact" className="btn btn-primary">
-              Let's Chat
-            </a>
           </div>
+
+          <p>
+            Hello, everyone. I live in Delhi. I have done my graduation in
+            B.Tech. in EEE from GTBIT, Delhi. I am aspiring to use my technical{" "}
+            <a href="#skillsdetails">skills</a> to excel my career as a
+            Front-End-Developer in IT.
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Let's Chat
+          </a>
         </div>
       </div>
     </section>

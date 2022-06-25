@@ -136,6 +136,10 @@ img {
 }
 
 @media (max-width: 1024px) {
+  #about {
+    height: 100%;
+  }
+
   .container {
     width: var(--container-width-md);
   }
