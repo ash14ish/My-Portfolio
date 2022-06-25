@@ -85,13 +85,8 @@ header {
   }
 
   .header__socials {
-    top: 10vh;
-  }
-
-  .header__socials::after {
-    content: "";
-    width: 1.5rem;
-    height: 2px;
+    top: 0;
+    left: 100%;
   }
 }
 
