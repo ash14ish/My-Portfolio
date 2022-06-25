@@ -6,7 +6,7 @@ import { MdWorkOutline } from "react-icons/md";
 import { BsChatDots } from "react-icons/bs";
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("home");
 
   const activeNavToggleHandler = id => {
     setActiveNav(id);
