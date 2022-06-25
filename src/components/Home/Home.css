@@ -71,18 +71,15 @@ header {
 }
 
 @media (max-width: 600px) {
-  /* .header_container {
-    height: 95%;
-  } */
-
   .my-pic {
     height: 52vh;
     padding: 0;
+    bottom: 0;
     border-radius: 12rem 12rem 0 0;
   }
 
   .my-pic img {
-    transform: rotate(10deg) translate(5%, 25%) scaleX(0.9);
+    transform: rotate(10deg) translate(5%, 25%);
   }
 
   .scroll__down {
