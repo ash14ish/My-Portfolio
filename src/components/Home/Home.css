@@ -83,12 +83,22 @@ header {
   .scroll__down {
     display: none;
   }
+
+  .header__socials {
+    top: 10vh;
+  }
+
+  .header__socials::after {
+    content: "";
+    width: 1.5rem;
+    height: 2px;
+  }
 }
 
 @media (max-width: 380px) {
-  /* .my-pic {
+  .my-pic {
     width: 14rem;
     height: 50vh;
     left: calc(50% - 7rem);
-  } */
+  }
 }
