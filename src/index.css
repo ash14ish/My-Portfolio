@@ -54,7 +54,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
-  background-size: 1vw 100vh;
+  background-size: 1vw 20%;
 }
 
 /* ------- Styles -------- */
