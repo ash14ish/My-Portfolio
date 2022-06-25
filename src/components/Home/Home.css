@@ -76,16 +76,14 @@ header {
   }
 
   .my-pic {
-    /* width: 16rem;
-    left: calc(50% - 8rem); */
-    height: 50vh;
+    height: 52vh;
     padding: 0;
     bottom: 0;
     border-radius: 12rem 12rem 0 0;
   }
 
   .my-pic img {
-    transform: rotate(10deg) translate(5%, 12%) scale(1.2);
+    transform: rotate(10deg) translate(5%, 20%) scale(1.1);
   }
 
   .scroll__down {
