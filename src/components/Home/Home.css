@@ -67,7 +67,7 @@ header {
       var(--color-primary-variant)
     );
     height: 50vh;
-    padding: 2rem;
+    padding: 0;
   }
 
   .my-pic img {
