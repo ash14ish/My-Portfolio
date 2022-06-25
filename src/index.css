@@ -149,6 +149,10 @@ img {
     background-size: 3.2vw 100vh;
   }
 
+  section {
+    margin-top: 2rem;
+  }
+
   .container {
     width: var(--container-width-sm);
   }
