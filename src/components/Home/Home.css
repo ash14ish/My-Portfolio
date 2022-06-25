@@ -76,14 +76,13 @@ header {
   }
 
   .my-pic {
-    height: 55vh;
+    height: 50vh;
     padding: 0;
     bottom: 0;
   }
 
   .my-pic img {
-    height: 82%;
-    transform: rotate(10deg) translateY(30%) scale(0.8);
+    transform: rotate(10deg) translate(5%, 30%) scale(0.95);
   }
 
   .scroll__down {
