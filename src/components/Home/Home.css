@@ -72,7 +72,7 @@ header {
 
 @media (max-width: 600px) {
   .my-pic {
-    height: 50vh;
+    height: 60vh;
     padding: 0;
     bottom: 0;
   }
