@@ -71,6 +71,10 @@ header {
 }
 
 @media (max-width: 600px) {
+  .header_container {
+    height: 95%;
+  }
+
   .my-pic {
     height: 60vh;
     padding: 0;
