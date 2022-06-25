@@ -10,6 +10,7 @@ const Home = () => {
         <h5>Hello I'm</h5>
         <h1>Ashish</h1>
         <h5 className="text-light">Front-End Developer</h5>
+
         <ActionButtons />
 
         <div className="my-pic">
