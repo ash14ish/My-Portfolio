@@ -48,7 +48,6 @@ header {
 
 .my-pic img {
   height: 55%;
-  background-size: cover;
   transform: rotate(10deg);
 }
 
@@ -65,19 +64,13 @@ header {
   .my-pic {
     background: linear-gradient(var(--color-primary), transparent);
     width: 14rem;
-    height: 30rem;
-    position: absolute;
+    height: 50vh;
     left: calc(50% - 7rem);
-
-    border-radius: 10rem 10rem 0 0;
-    overflow: hidden;
-    padding: 1rem;
+    padding: 0;
   }
 
   .my-pic img {
-    height: 55%;
-    background-size: cover;
-    transform: rotate(10deg);
+    height: 100%;
   }
 
   .scroll__down {
