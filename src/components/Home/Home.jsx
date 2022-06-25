@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
 import ActionButtons from "./ActionButtons";
-import MyPic from "../../assets/me.png";
+import MyPic from "../../assets/me1.png";
+import HeaderSocial from "./HeaderSocial";
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
         <a href="" className="scroll__down">
           Scroll Down
         </a>
+
+        <HeaderSocial />
       </div>
     </header>
   );
