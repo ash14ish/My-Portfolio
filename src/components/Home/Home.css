@@ -80,11 +80,12 @@ header {
     left: calc(50% - 15rem / 2);
     height: 40vh;
     padding: 0;
+    bottom: 0;
     border-radius: 12rem 12rem 0 0;
   }
 
   .my-pic img {
-    transform: rotate(10deg) translate(5%, 30%);
+    transform: rotate(10deg) translate(5%, 15%) scale(1.2);
   }
 
   .scroll__down {
