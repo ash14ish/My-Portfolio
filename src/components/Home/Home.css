@@ -74,6 +74,7 @@ header {
   .my-pic {
     height: 50vh;
     padding: 0;
+    bottom: 0;
   }
 
   .my-pic img {
@@ -86,7 +87,7 @@ header {
 
   .header__socials {
     top: 0;
-    left: 100%;
+    left: 97%;
   }
 }
 
