@@ -13,6 +13,7 @@ const Home = () => {
         <h5 className="text-light">Front-End Developer</h5>
 
         <ActionButtons />
+        <HeaderSocial />
 
         <div className="my-pic">
           <img src={MyPic}></img>
@@ -21,8 +22,6 @@ const Home = () => {
         <a href="" className="scroll__down">
           Scroll Down
         </a>
-
-        <HeaderSocial />
       </div>
     </header>
   );
