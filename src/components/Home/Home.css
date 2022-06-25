@@ -83,7 +83,7 @@ header {
 
   .my-pic img {
     height: 82%;
-    transform: rotate(10deg) translateY(20px) scale(0.8);
+    transform: rotate(10deg) translateY(30%) scale(0.8);
   }
 
   .scroll__down {
