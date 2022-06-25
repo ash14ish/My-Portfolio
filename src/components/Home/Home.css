@@ -64,12 +64,12 @@ header {
 @media (max-width: 600px) {
   .my-pic {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 16rem;
-    height: 35rem;
+    width: 14rem;
+    height: 30rem;
     position: absolute;
-    left: calc(50% - 8rem);
-    margin-top: 2.5rem;
-    border-radius: 8rem 8rem 0 0;
+    left: calc(50% - 7rem);
+
+    border-radius: 10rem 10rem 0 0;
     overflow: hidden;
     padding: 1rem;
   }
