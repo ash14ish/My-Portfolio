@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 6rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -8,4 +8,38 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+}
+
+.cta {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header__socials::after {
+  content: "";
+  width: 2px;
+  height: 1.5rem;
+  background-color: var(--color-primary);
+}
+
+.my-pic {
+  background-color: var(--color-primary);
+  width: 16rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 8rem);
+  margin-top: 2.5rem;
+  border-radius: 11rem 11rem 0 0;
 }
