@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import ActionButtons from "./ActionButtons";
-import MyPic from "../../assets/me1.png";
+import MyPic from "../../assets/me.png";
 import HeaderSocial from "./HeaderSocial";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <HeaderSocial />
 
         <div className="my-pic">
-          <img src={MyPic}></img>
+          <img src={MyPic} alt="my-pic"></img>
         </div>
 
         <a href="" className="scroll__down">

@@ -43,12 +43,13 @@ header {
   margin-top: 2.5rem;
   border-radius: 8rem 8rem 0 0;
   overflow: hidden;
+  padding: 1rem;
 }
 
 .my-pic img {
   height: 55%;
   background-size: cover;
-  transform: rotate(11deg);
+  transform: rotate(10deg);
 }
 
 .scroll__down {
@@ -58,4 +59,28 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .my-pic {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 16rem;
+    height: 35rem;
+    position: absolute;
+    left: calc(50% - 8rem);
+    margin-top: 2.5rem;
+    border-radius: 8rem 8rem 0 0;
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .my-pic img {
+    height: 55%;
+    background-size: cover;
+    transform: rotate(10deg);
+  }
+
+  .scroll__down {
+    display: none;
+  }
 }
