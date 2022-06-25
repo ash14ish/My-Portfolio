@@ -75,7 +75,7 @@ header {
   }
 
   .my-pic img {
-    transform: rotate(10deg) translate(5%, 18%) scale(1.3);
+    transform: rotate(10deg) translate(5%, 18%) scale(1.2);
   }
 
   .scroll__down {
