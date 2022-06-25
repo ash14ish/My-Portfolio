@@ -62,18 +62,24 @@ header {
 
 @media (max-width: 600px) {
   .my-pic {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 14rem;
     height: 50vh;
-    left: calc(50% - 7rem);
-    padding: 0;
+    padding: 1rem;
   }
 
   .my-pic img {
-    height: 100%;
+    height: 110%;
   }
 
   .scroll__down {
     display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .my-pic {
+    width: 14rem;
+    height: 50vh;
+    left: calc(50% - 7rem);
+    padding: 1rem;
   }
 }
