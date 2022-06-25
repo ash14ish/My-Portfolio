@@ -36,7 +36,6 @@ header {
 
 .my-pic {
   background: linear-gradient(var(--color-primary), var(--color-bg));
-
   width: 18rem;
   height: 30rem;
   position: absolute;
@@ -69,9 +68,10 @@ header {
 
 @media (max-width: 600px) {
   .my-pic {
-    height: 52vh;
+    height: 50vh;
     padding: 0;
     border-radius: 12rem 12rem 0 0;
+    margin-top: 4rem;
   }
 
   .my-pic img {
@@ -92,7 +92,7 @@ header {
   .my-pic {
     width: 15rem;
     left: calc(50% - 15rem / 2);
-    height: 40vh;
+    height: 50vh;
   }
 
   .my-pic img {
