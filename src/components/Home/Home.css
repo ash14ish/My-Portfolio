@@ -35,7 +35,7 @@ header {
 }
 
 .my-pic {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(var(--color-primary), var(--color-bg));
 
   width: 18rem;
   height: 30rem;
