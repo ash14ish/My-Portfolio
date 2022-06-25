@@ -19,7 +19,7 @@ const Home = () => {
           <img src={MyPic} alt="my-pic"></img>
         </div>
 
-        <a href="" className="scroll__down">
+        <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
       </div>
