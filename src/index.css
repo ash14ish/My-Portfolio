@@ -101,12 +101,12 @@ a {
   transition: var(--transition);
 }
 
-a:hover,
-a:active {
+a:hover {
   color: var(--color-white);
 }
 
-.btn {
+.btn,
+.btn:active {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -117,8 +117,7 @@ a:active {
   transition: var(--transition);
 }
 
-.btn:hover,
-.btn:active {
+.btn:hover {
   background-color: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
