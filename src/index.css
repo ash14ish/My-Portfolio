@@ -147,7 +147,7 @@ img {
 
 @media (max-width: 600px) {
   body {
-    background-size: 3.2vw 100vh;
+    background-size: 3.2vw 20%;
   }
 
   section {
