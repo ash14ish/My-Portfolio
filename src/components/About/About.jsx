@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import MeAbout from "../../assets/me-about-2.png";
+import MeAbout from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 import { VscFolderActive } from "react-icons/vsc";
