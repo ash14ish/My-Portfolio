@@ -46,8 +46,9 @@ header {
 }
 
 .my-pic img {
-  height: 50%;
+  height: 55%;
   background-size: cover;
+  transform: rotate(11deg);
 }
 
 .scroll__down {
