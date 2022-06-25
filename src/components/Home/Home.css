@@ -67,11 +67,11 @@ header {
       var(--color-primary-variant)
     );
     height: 50vh;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .my-pic img {
-    height: 110%;
+    height: 90%;
   }
 
   .scroll__down {
@@ -84,6 +84,5 @@ header {
     width: 14rem;
     height: 50vh;
     left: calc(50% - 7rem);
-    padding: 1rem;
   }
 }
