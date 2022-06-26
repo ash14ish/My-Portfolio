@@ -45,6 +45,15 @@
   margin-right: 0.4rem;
 }
 
+#projects > button {
+  display: block;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.7rem;
+  width: max-content;
+  margin: 1rem auto;
+}
+
 @media (max-width: 1024px) {
   .projects__container {
     grid-template-columns: repeat(2, 1fr);

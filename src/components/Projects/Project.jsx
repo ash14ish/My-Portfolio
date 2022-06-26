@@ -1,39 +1,66 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Projects.css";
 import projectsData from "./projects-data.js";
 import { SiNetlify, SiGithub } from "react-icons/si";
 
-import Img1 from "../../assets/project-1.png";
-
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+  const projectRef = useRef();
+
+  const showAllProjectsHandler = () => {
+    setShowAll(!showAll);
+    projectRef.current.scrollIntoView({ behaviour: "smooth" });
+  };
+
+  const projects = item => (
+    <article key={item.id} className="project">
+      <div className="project__image">
+        <img src={item.image} alt={item.title}></img>
+      </div>
+
+      <h3>{item.title}</h3>
+
+      <div className="project__cta">
+        <a
+          href={item.demo}
+          target="_blank"
+          className="btn btn-primary"
+          rel="noopener noreferrer"
+        >
+          <SiNetlify className="project__cta-icon" /> Demo
+        </a>
+
+        <a
+          className="btn"
+          href={item.github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiGithub className="project__cta-icon" /> Code
+        </a>
+      </div>
+    </article>
+  );
+
   return (
-    <section id="projects">
+    <section id="projects" ref={projectRef}>
       <h5>Fully Responsive</h5>
       <h2>Projects</h2>
 
       <div className="container projects__container">
-        {projectsData.map(item => {
-          return (
-            <article key={item.id} className="project">
-              <div className="project__image">
-                <img src={item.image} alt={item.title}></img>
-              </div>
+        {!showAll &&
+          projectsData
+            .filter((_, i) => i <= 2)
+            .map(project => {
+              return projects(project);
+            })}
 
-              <h3>{item.title}</h3>
-
-              <div className="project__cta">
-                <a href={item.github} target="_blank" className="btn">
-                  <SiGithub className="project__cta-icon" /> Code
-                </a>
-
-                <a href={item.demo} target="_blank" className="btn btn-primary">
-                  <SiNetlify className="project__cta-icon" /> Demo
-                </a>
-              </div>
-            </article>
-          );
-        })}
+        {showAll && projectsData.map(project => projects(project))}
       </div>
+
+      <button className="btn btn-primary" onClick={showAllProjectsHandler}>
+        {!showAll ? "Show All" : "Show Less"}
+      </button>
     </section>
   );
 };
