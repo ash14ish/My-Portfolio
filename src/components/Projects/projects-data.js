@@ -16,7 +16,7 @@ const projectsData = [
     image: Img1,
     title: "Guess The Number",
     github: "https://github.com/ash14ish/01-guess-the-number",
-    demo: "https://app.netlify.com/sites/guess-it-win-it/overview",
+    demo: "https://guess-it-win-it.netlify.app/",
   },
 
   {
