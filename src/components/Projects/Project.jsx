@@ -20,21 +20,11 @@ const Projects = () => {
       <h3>{item.title}</h3>
 
       <div className="project__cta">
-        <a
-          href={item.demo}
-          target="_blank"
-          className="btn btn-primary"
-          rel="noopener noreferrer"
-        >
+        <a href={item.demo} target="_blank" className="btn btn-primary">
           <SiNetlify className="project__cta-icon" /> Demo
         </a>
 
-        <a
-          className="btn"
-          href={item.github}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="btn" href={item.github} target="_blank">
           <SiGithub className="project__cta-icon" /> Code
         </a>
       </div>
