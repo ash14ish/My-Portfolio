@@ -63,7 +63,7 @@ h5 {
   font-size: 0.85rem;
 }
 
-small {
+.about__card small {
   color: var(--color-light);
   font-size: 0.77rem;
 }
