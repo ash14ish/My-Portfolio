@@ -114,6 +114,7 @@ small {
 
   .about__content p {
     margin: 1rem 0;
+    margin-top: 2.5rem;
     text-align: left;
     font-size: 0.85rem;
   }
