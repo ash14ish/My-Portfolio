@@ -45,11 +45,11 @@ const Projects = () => {
   );
 
   return (
-    <section id="projects">
+    <section id="projects" ref={projectRef}>
       <h5>Fully Responsive</h5>
       <h2>Projects</h2>
 
-      <div className="container projects__container" ref={projectRef}>
+      <div className="container projects__container">
         {!showAll &&
           projectsData
             .filter((_, i) => i <= 2)
