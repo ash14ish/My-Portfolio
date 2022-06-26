@@ -93,6 +93,10 @@ small {
 }
 
 @media (max-width: 600px) {
+  #about {
+    margin-bottom: 6rem;
+  }
+
   .about__me {
     width: 65%;
     margin: 0 auto;
@@ -119,10 +123,4 @@ small {
     font-weight: 500;
     padding: 0.4rem 0.7rem;
   }
-
-  /* .about__card:last-child {
-    grid-column: span 2;
-    width: 50vw;
-    justify-self: center;
-  } */
 }
