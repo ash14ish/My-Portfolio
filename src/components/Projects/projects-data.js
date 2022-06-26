@@ -1,4 +1,6 @@
 import Img1 from "../../assets/project-1.png";
+import Vid1 from "../../assets/project-1.mp4";
+
 import Img2 from "../../assets/project-2.png";
 import Img3 from "../../assets/project-3.png";
 import Img4 from "../../assets/project-4.png";
@@ -17,6 +19,7 @@ const projectsData = [
     title: "Guess The Number",
     github: "https://github.com/ash14ish/01-guess-the-number",
     demo: "https://guess-it-win-it.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -25,6 +28,7 @@ const projectsData = [
     title: "Pig Game",
     github: "https://github.com/ash14ish/02-pig-game",
     demo: "https://epig-game.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -33,6 +37,7 @@ const projectsData = [
     title: "Bank User Login",
     github: "https://github.com/ash14ish/03-bankist-user-login",
     demo: "https://bank-user-login.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -41,6 +46,7 @@ const projectsData = [
     title: "Bankist Website",
     github: "https://github.com/ash14ish/04-bankist-website",
     demo: "https://the-best-bank.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -49,6 +55,7 @@ const projectsData = [
     title: "Mapish",
     github: "https://github.com/ash14ish/05-mapish",
     demo: "https://mapish.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -57,6 +64,7 @@ const projectsData = [
     title: "Forkifite",
     github: "https://github.com/ash14ish/06-forkify",
     demo: "https://forkifite.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -65,6 +73,7 @@ const projectsData = [
     title: "Photowall",
     github: "https://github.com/ash14ish/07-photowall",
     demo: "https://the-photo-wall.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -73,6 +82,7 @@ const projectsData = [
     title: "Expense Tracker",
     github: "https://github.com/ash14ish/08-expense-tracker",
     demo: "https://x-pens-tracker.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -81,6 +91,7 @@ const projectsData = [
     title: "Food Order App",
     github: "https://github.com/ash14ish/09-food-order-app",
     demo: "https://f00d-0rder-app.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -89,6 +100,7 @@ const projectsData = [
     title: "Up-Quote-Load",
     github: "https://github.com/ash14ish/10-up-quote-load",
     demo: "https://up-quote-load.netlify.app/",
+    video: Vid1,
   },
 
   {
@@ -96,7 +108,8 @@ const projectsData = [
     image: Img11,
     title: "My Portfolio",
     github: "https://github.com/ash14ish/My-Portfolio",
-    demo: "https://am-responsive-portfolio.netlify.app/",
+    demo: "https://asm-portfolio-cv.netlify.app/",
+    video: Vid1,
   },
 ];
 

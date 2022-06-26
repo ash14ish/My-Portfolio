@@ -1,5 +1,7 @@
 import React, { useState, useRef } from "react";
+import HoverVideoPlayer from "react-hover-video-player";
 import "./Projects.css";
+
 import projectsData from "./projects-data.js";
 import { SiNetlify, SiGithub } from "react-icons/si";
 
@@ -17,7 +19,21 @@ const Projects = () => {
   const projects = item => (
     <article key={item.id} className="project">
       <div className="project__image">
-        <img src={item.image} alt={item.title}></img>
+        {/* <img src={item.image} alt={item.title} /> */}
+        <HoverVideoPlayer
+          videoSrc={item.video}
+          pausedOverlay={
+            <img
+              src={item.image}
+              alt={item.title}
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            ></img>
+          }
+        />
       </div>
 
       <h3>{item.title}</h3>
