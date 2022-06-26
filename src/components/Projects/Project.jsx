@@ -9,7 +9,6 @@ const Projects = () => {
 
   const showAllProjectsHandler = () => {
     setShowAll(!showAll);
-    projectRef.current.scrollIntoView({ behaviour: "smooth" });
   };
 
   const projects = item => (
@@ -52,6 +51,7 @@ const Projects = () => {
           projectsData
             .filter((_, i) => i <= 2)
             .map(project => {
+              projectRef.current.scrollIntoView({ behaviour: "smooth" });
               return projects(project);
             })}
 
