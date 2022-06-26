@@ -9,6 +9,9 @@ const Projects = () => {
 
   const showAllProjectsHandler = () => {
     setShowAll(!showAll);
+    if (showAll) {
+      projectRef.current.scrollIntoView({ behaviour: "smooth" });
+    }
   };
 
   const projects = item => (
@@ -20,11 +23,21 @@ const Projects = () => {
       <h3>{item.title}</h3>
 
       <div className="project__cta">
-        <a href={item.demo} target="_blank" className="btn btn-primary">
+        <a
+          href={item.demo}
+          target="_blank"
+          className="btn btn-primary"
+          rel="noopener noreferrer"
+        >
           <SiNetlify className="project__cta-icon" /> Demo
         </a>
 
-        <a className="btn" href={item.github} target="_blank">
+        <a
+          className="btn"
+          href={item.github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SiGithub className="project__cta-icon" /> Code
         </a>
       </div>
@@ -32,16 +45,15 @@ const Projects = () => {
   );
 
   return (
-    <section id="projects" ref={projectRef}>
+    <section id="projects">
       <h5>Fully Responsive</h5>
       <h2>Projects</h2>
 
-      <div className="container projects__container">
+      <div className="container projects__container" ref={projectRef}>
         {!showAll &&
           projectsData
             .filter((_, i) => i <= 2)
             .map(project => {
-              projectRef.current.scrollIntoView({ behaviour: "smooth" });
               return projects(project);
             })}
 
