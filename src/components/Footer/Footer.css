@@ -63,6 +63,6 @@ footer a {
 
 @media screen and (max-width: 380px) {
   .footer__copyright {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 }
