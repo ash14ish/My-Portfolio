@@ -58,4 +58,12 @@
 }
 
 @media (max-width: 600px) {
+  .skills__container {
+    gap: 1rem;
+  }
+
+  .skills__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
 }
