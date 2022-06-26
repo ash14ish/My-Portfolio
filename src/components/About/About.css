@@ -95,6 +95,7 @@ small {
 @media (max-width: 600px) {
   #about {
     height: 100%;
+    margin-bottom: 4rem;
   }
 
   .about__me {
@@ -116,10 +117,12 @@ small {
     margin: 1rem 0;
     text-align: left;
     font-size: 0.85rem;
+    white-space: pre-line;
   }
 
   .about__content > a {
     font-size: 0.85rem;
+    font-weight: 500;
     padding: 0.4rem 0.7rem;
   }
 
