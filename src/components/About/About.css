@@ -113,19 +113,19 @@ small {
   }
 
   .about__content p {
-    margin: 0.6rem 0 0.9rem 0;
+    margin: 1rem 0;
     text-align: left;
     font-size: 0.85rem;
   }
 
   .about__content > a {
     font-size: 0.85rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.4rem 0.7rem;
   }
 
-  /* .about__card:last-child {
+  .about__card:last-child {
     grid-column: span 2;
     width: 50vw;
     justify-self: center;
-  } */
+  }
 }
