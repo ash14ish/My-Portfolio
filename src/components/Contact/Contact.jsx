@@ -22,7 +22,7 @@ const Contact = () => {
             <h4>Messenger</h4>
             <h5>ashish141994</h5>
             <a
-              href="https://m.me/ash14ish/"
+              href="https://m.me/ashish141994/"
               target="_blank"
               rel="noopener noreferrer"
             >
