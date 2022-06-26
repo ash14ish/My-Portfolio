@@ -95,7 +95,7 @@ small {
 @media (max-width: 600px) {
   #about {
     height: 100%;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
   }
 
   .about__me {
