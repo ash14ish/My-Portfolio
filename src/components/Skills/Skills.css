@@ -40,3 +40,18 @@
   margin-top: 6px;
   color: var(--color-primary);
 }
+
+@media (max-width: 1024px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+}
