@@ -100,3 +100,9 @@
     padding-left: 1.5rem;
   }
 }
+
+@media (max-width: 320px) {
+  .frontend__details-list {
+    font-size: 0.7rem;
+  }
+}
