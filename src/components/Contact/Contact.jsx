@@ -74,7 +74,7 @@ const Contact = () => {
             name="name"
             placeholder="Your Name"
             required
-            autocomplete="off"
+            autoComplete="off"
           />
 
           <input
@@ -82,7 +82,7 @@ const Contact = () => {
             name="email"
             placeholder="Your Email"
             required
-            autocomplete="off"
+            autoComplete="off"
           />
 
           <textarea
