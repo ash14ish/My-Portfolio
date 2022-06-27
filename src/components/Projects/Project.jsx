@@ -32,15 +32,16 @@ const Projects = () => {
         >
           <SiNetlify className="project__cta-icon" /> Demo
         </a>
-
-        <a
-          className="btn"
-          href={item.github}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <SiGithub className="project__cta-icon" /> Code
-        </a>
+        {item.github && (
+          <a
+            className="btn"
+            href={item.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiGithub className="project__cta-icon" /> Code
+          </a>
+        )}
       </div>
     </article>
   );

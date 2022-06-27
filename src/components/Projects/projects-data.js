@@ -95,7 +95,7 @@ const projectsData = [
     id: 11,
     image: Img11,
     title: "My Portfolio",
-    github: "https://github.com/ash14ish/My-Portfolio",
+    github: null,
     demo: "https://asm-portfolio-cv.netlify.app/",
   },
 ];
