@@ -1,6 +1,6 @@
 /* -------ICONS--------- */
 
-.frontend_details-icon {
+.frontend__details-icon {
   font-size: 3rem;
   background-color: white;
 }
@@ -20,4 +20,12 @@
 
 #react {
   color: #5ed3f3;
+}
+
+/* List of details */
+
+.frontend__details-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

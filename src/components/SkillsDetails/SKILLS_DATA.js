@@ -54,3 +54,5 @@ const SKILLS_DATA = {
     "and so on ...",
   ],
 };
+
+export default SKILLS_DATA;
