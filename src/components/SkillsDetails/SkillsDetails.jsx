@@ -5,12 +5,13 @@ import { SiJavascript } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { RiReactjsFill } from "react-icons/ri";
 
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 import SKILLS_DATA from "./SKILLS_DATA.js";
 
@@ -21,8 +22,9 @@ const SkillsDetails = () => {
       <h2>About My Skills</h2>
 
       <Swiper
+        modules={[Pagination, Autoplay]}
+        autoplay={{ delay: 2000, disableOnInteraction: true }}
         autoHeight="true"
-        modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
