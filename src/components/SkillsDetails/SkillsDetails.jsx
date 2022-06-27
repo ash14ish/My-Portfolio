@@ -3,6 +3,7 @@ import "./SkillsDetails.css";
 import { SiJavascript } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { RiReactjsFill } from "react-icons/ri";
+// import SKILLS_DATA from "./SKILLS_DATA.js";
 
 const SkillsDetails = () => {
   return (
@@ -13,6 +14,12 @@ const SkillsDetails = () => {
       <div className="container container__details">
         <article className="frontend_details">
           <SiJavascript id="js" className="frontend_details-icon" />
+
+          <ul>
+            {/* {SKILLS_DATA.js.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))} */}
+          </ul>
         </article>
 
         <article className="frontend_details">

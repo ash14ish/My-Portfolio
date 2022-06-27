@@ -30,7 +30,6 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <SiGmail className="contact__option-icon" />
-            <h4>Gmail</h4>
             <h5>ashish7347@gmail.com</h5>
 
             <a
@@ -44,8 +43,7 @@ const Contact = () => {
 
           <article className="contact__option">
             <SiMessenger className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>ashish141994</h5>
+            <h4>ashish141994</h4>
 
             <a
               href="https://m.me/ashish141994/"
@@ -58,7 +56,6 @@ const Contact = () => {
 
           <article className="contact__option">
             <ImSkype className="contact__option-icon" />
-            <h4>Skype</h4>
             <h5>ashish7347@gmail.com</h5>
 
             <a

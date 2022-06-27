@@ -1,5 +1,5 @@
 #contact__heading {
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 .container.contact__container {
@@ -17,7 +17,7 @@
 
 .contact__option {
   background: var(--color-bg-variant);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
@@ -68,6 +68,7 @@ form button {
   display: block;
   width: max-content;
   margin: auto;
+  margin-top: 0.9rem;
 }
 
 @media (max-width: 1024px) {
