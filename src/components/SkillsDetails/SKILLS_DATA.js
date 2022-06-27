@@ -10,7 +10,6 @@ const SKILLS_DATA = {
     "Promises, Async/Await and Ajax",
     "DOM and Events",
     "Modern Javascript Development",
-    "and so on...",
   ],
 
   react: [
@@ -24,7 +23,6 @@ const SKILLS_DATA = {
     "Http Requests and Database",
     "Animating, Authenticating and Testing React Apps",
     "React Router and React Redux",
-    "and so on...",
   ],
 
   html: [
@@ -37,7 +35,6 @@ const SKILLS_DATA = {
     "Html Tables",
     "Html Forms and Html Form Elements",
     "HTML Input Types",
-    "and so on...",
   ],
 
   css: [
@@ -51,7 +48,6 @@ const SKILLS_DATA = {
     "CSS Grid",
     "Tranform, Transition and Animation",
     "SASS(SCSS) and LESS",
-    "and so on ...",
   ],
 };
 
