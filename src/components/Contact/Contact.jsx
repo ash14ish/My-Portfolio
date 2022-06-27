@@ -43,7 +43,7 @@ const Contact = () => {
 
           <article className="contact__option">
             <SiMessenger className="contact__option-icon" />
-            <h4>ashish141994</h4>
+            <h5>ashish141994</h5>
 
             <a
               href="https://m.me/ashish141994/"

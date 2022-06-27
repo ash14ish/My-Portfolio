@@ -86,8 +86,9 @@ form button {
     padding-top: 2rem;
   }
 
-  .contact__option {
-    padding: 2.5rem 0.5rem;
+  .contact__option-icon {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
   }
 }
 
