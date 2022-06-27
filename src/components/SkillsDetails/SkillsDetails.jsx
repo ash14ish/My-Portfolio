@@ -11,20 +11,20 @@ const SkillsDetails = () => {
       <h2>About My Skills</h2>
 
       <div className="container container__details">
-        <article className="skill__details">
-          <SiJavascript id="js" className="skill__details-icon" />
+        <article className="frontend_details">
+          <SiJavascript id="js" className="frontend_details-icon" />
         </article>
 
-        <article className="skill_details">
-          <RiReactjsFill id="react" className="skill__details-icon" />
+        <article className="frontend_details">
+          <RiReactjsFill id="react" className="frontend_details-icon" />
         </article>
 
-        <article className="skill_details">
-          <IoLogoHtml5 id="html" className="skill__details-icon" />
+        <article className="frontend_details">
+          <IoLogoHtml5 id="html" className="frontend_details-icon" />
         </article>
 
-        <article className="skill_details">
-          <IoLogoCss3 id="css" className="skill__details-icon" />
+        <article className="frontend_details">
+          <IoLogoCss3 id="css" className="frontend_details-icon" />
         </article>
       </div>
     </section>
