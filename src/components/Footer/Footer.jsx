@@ -38,15 +38,24 @@ const Footer = () => {
         <a
           href="https://www.quora.com/profile/Ashish-Sharma-424"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaQuora />
         </a>
 
-        <a href="https://www.instagram.com/ash14ish/" target="_blank">
+        <a
+          href="https://www.instagram.com/ash14ish/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FiInstagram />
         </a>
 
-        <a href="https://twitter.com/aas_hi_shh" target="_blank">
+        <a
+          href="https://twitter.com/aas_hi_shh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <IoLogoTwitter />
         </a>
       </div>

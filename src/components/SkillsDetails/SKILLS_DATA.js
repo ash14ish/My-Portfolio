@@ -28,6 +28,7 @@ const SKILLS_DATA = {
   html: [
     "Basic Html (HTML5)",
     "Document Metadata",
+    "Root, Head and Body",
     "Sectioning Root and Content Sectioning",
     "Special Formatting and interactive Elements",
     "Inline Text Semantics",

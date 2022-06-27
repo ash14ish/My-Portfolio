@@ -5,6 +5,13 @@ import { SiJavascript } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { RiReactjsFill } from "react-icons/ri";
 
+import { Pagination } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 import SKILLS_DATA from "./SKILLS_DATA.js";
 
 const SkillsDetails = () => {
@@ -13,8 +20,15 @@ const SkillsDetails = () => {
       <h5>What I know</h5>
       <h2>About My Skills</h2>
 
-      <div className="container container__details">
-        <article className="frontend__details">
+      <Swiper
+        autoHeight="true"
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        className="container container__details"
+      >
+        <SwiperSlide className="frontend__details">
           <SiJavascript id="js" className="frontend__details-icon" />
 
           <ul>
@@ -24,9 +38,9 @@ const SkillsDetails = () => {
               </li>
             ))}
           </ul>
-        </article>
+        </SwiperSlide>
 
-        <article className="frontend__details">
+        <SwiperSlide className="frontend__details">
           <RiReactjsFill id="react" className="frontend__details-icon" />
 
           <ul>
@@ -36,9 +50,9 @@ const SkillsDetails = () => {
               </li>
             ))}
           </ul>
-        </article>
+        </SwiperSlide>
 
-        <article className="frontend__details">
+        <SwiperSlide className="frontend__details">
           <IoLogoHtml5 id="html" className="frontend__details-icon" />
           <ul>
             {SKILLS_DATA.html.map((skill, index) => (
@@ -47,9 +61,9 @@ const SkillsDetails = () => {
               </li>
             ))}
           </ul>
-        </article>
+        </SwiperSlide>
 
-        <article className="frontend__details">
+        <SwiperSlide className="frontend__details">
           <IoLogoCss3 id="css" className="frontend__details-icon" />
 
           <ul>
@@ -59,8 +73,8 @@ const SkillsDetails = () => {
               </li>
             ))}
           </ul>
-        </article>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };
