@@ -76,9 +76,18 @@ form button {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  form {
+    border-top: 1px solid var(--color-primary-variant);
+    padding-top: 2rem;
+  }
 }
 
 @media (max-width: 600px) {
+  #contact {
+    margin-top: 5rem;
+  }
+
   .container.contact__container {
     width: var(--container-width-sm);
   }
