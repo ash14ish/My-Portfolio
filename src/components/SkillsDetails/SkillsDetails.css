@@ -1,0 +1,23 @@
+/* -------ICONS--------- */
+
+.skill__details-icon {
+  font-size: 3rem;
+  background-color: white;
+}
+
+#js {
+  color: yellow;
+  background-color: black;
+}
+
+#html {
+  color: #dd4b25;
+}
+
+#css {
+  color: #2162af;
+}
+
+#react {
+  color: #5ed3f3;
+}
