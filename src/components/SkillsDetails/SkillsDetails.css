@@ -84,9 +84,6 @@
   .frontend__details {
     flex-direction: column;
     gap: 1.5rem;
-  }
-
-  .swiper-slide {
     height: 60vh;
   }
 
@@ -96,7 +93,7 @@
   }
 
   .frontend__details-list {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   .frontend__details ul {
