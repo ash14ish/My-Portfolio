@@ -84,7 +84,10 @@
   .frontend__details {
     flex-direction: column;
     gap: 1.5rem;
-    padding-top: 0.2rem;
+  }
+
+  .swiper-slide {
+    height: 60vh;
   }
 
   .swiper-slide ul {
