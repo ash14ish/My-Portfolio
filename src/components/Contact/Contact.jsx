@@ -72,15 +72,28 @@ const Contact = () => {
         </div>
 
         <form ref={formRef} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Name" required />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            autocomplete="off"
+          />
 
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            autocomplete="off"
+          />
 
           <textarea
             name="message"
             rows="7"
             placeholder="Your Message"
             required
+            autoComplete="off"
           ></textarea>
 
           <button className="btn btn-primary">Hire Me</button>
