@@ -65,6 +65,9 @@ textarea {
 
 form button {
   font-size: 1rem;
+  display: block;
+  width: max-content;
+  margin: auto;
 }
 
 @media (max-width: 1024px) {

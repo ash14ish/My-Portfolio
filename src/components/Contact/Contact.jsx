@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contact.css";
 import { SiGmail, SiMessenger } from "react-icons/si";
-import { RiMessengerLine } from "react-icons/ri";
 import { ImSkype } from "react-icons/im";
 
 const Contact = () => {
