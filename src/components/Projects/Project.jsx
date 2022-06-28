@@ -46,25 +46,39 @@ const Projects = React.forwardRef((_, ref) => {
   );
 
   return (
-    <section id="projects" ref={ref}>
-      <h5 ref={projectsRef}>Fully Responsive</h5>
-      <h2>Projects</h2>
+    <>
+      {!showAll && (
+        <section id="projects" ref={ref}>
+          <h5 ref={projectsRef}>Fully Responsive</h5>
+          <h2>Projects</h2>
 
-      <div className="container projects__container">
-        {!showAll &&
-          projectsData
-            .filter((_, i) => i <= 2)
-            .map(project => {
-              return projects(project);
-            })}
+          <div className="container projects__container">
+            {projectsData
+              .filter((_, i) => i <= 2)
+              .map(project => {
+                return projects(project);
+              })}
 
-        {showAll && projectsData.map(project => projects(project))}
-      </div>
+            {showAll && projectsData.map(project => projects(project))}
+          </div>
+        </section>
+      )}
+
+      {showAll && (
+        <section id="projects" ref={ref}>
+          <h5 ref={projectsRef}>Fully Responsive</h5>
+          <h2>Projects</h2>
+
+          <div className="container projects__container">
+            {projectsData.map(project => projects(project))}
+          </div>
+        </section>
+      )}
 
       <button className="btn btn-primary" onClick={showAllProjectsHandler}>
         {!showAll ? "Show All" : "Show Less"}
       </button>
-    </section>
+    </>
   );
 });
 
