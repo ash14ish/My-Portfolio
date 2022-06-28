@@ -13,7 +13,7 @@ const App = () => {
   const navBarRef = useRef();
 
   const observerOptions = {
-    threshold: 0.1,
+    threshold: 0.3,
     onChange: (_, entry) => {
       const allNavs = navBarRef.current.children;
 

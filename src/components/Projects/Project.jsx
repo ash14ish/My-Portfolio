@@ -11,9 +11,7 @@ const Projects = React.forwardRef((_, ref) => {
 
   const showAllProjectsHandler = () => {
     setShowAll(!showAll);
-    if (showAll) {
-      projectsRef.current.scrollIntoView({ behaviour: "smooth" });
-    }
+    projectsRef.current.scrollIntoView({ behaviour: "smooth" });
   };
 
   const projects = item => (
