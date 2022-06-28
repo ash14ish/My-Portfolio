@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { VscTools } from "react-icons/vsc";
 import { MdWorkOutline } from "react-icons/md";
 import { BsChatDots } from "react-icons/bs";
 
-const Navbar = () => {
+const Navbar = React.forwardRef((_, ref) => {
   const [activeNav, setActiveNav] = useState("home");
 
   const activeNavToggleHandler = id => {
@@ -13,9 +14,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav ref={ref}>
       <a
-        href="#"
+        href="#home"
         onClick={activeNavToggleHandler.bind(null, "home")}
         className={activeNav === "home" ? "active" : ""}
       >
@@ -55,6 +56,6 @@ const Navbar = () => {
       </a>
     </nav>
   );
-};
+});
 
 export default Navbar;

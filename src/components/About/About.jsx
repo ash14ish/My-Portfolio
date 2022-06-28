@@ -5,9 +5,9 @@ import { FaAward } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 import { VscFolderActive } from "react-icons/vsc";
 
-const About = () => {
+const About = React.forwardRef((_, ref) => {
   return (
-    <section id="about">
+    <section ref={ref} id="about">
       <h5>Get to know</h5>
       <h2>About me</h2>
       <div className="container about__container">
@@ -50,6 +50,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+});
 
 export default About;

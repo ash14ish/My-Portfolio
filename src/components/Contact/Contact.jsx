@@ -5,7 +5,7 @@ import "./Contact.css";
 import { SiGmail, SiMessenger } from "react-icons/si";
 import { ImSkype } from "react-icons/im";
 
-const Contact = () => {
+const Contact = React.forwardRef((_, ref) => {
   const formRef = useRef();
 
   const sendEmail = e => {
@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section ref={ref} id="contact">
       <h5>Get In Touch</h5>
       <h2 id="contact__heading">Contact Me</h2>
 
@@ -98,6 +98,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Contact;

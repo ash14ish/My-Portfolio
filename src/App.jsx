@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useInView } from "react-intersection-observer";
 
-import Header from "./components/Home/Home";
+import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -10,15 +11,47 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
+  const navBarRef = useRef();
+
+  const observerOptions = {
+    threshold: 0.3,
+    onChange: (_, entry) => {
+      const allNavs = navBarRef.current.children;
+
+      if (entry.isIntersecting) {
+        [...allNavs].forEach(nav => {
+          nav.classList.remove("active");
+        });
+
+        const activeNav = [...allNavs].find(
+          nav => nav.getAttribute("href").slice(1) === entry.target.id
+        );
+
+        activeNav.classList.add("active");
+      }
+    },
+  };
+
+  const [homeRef] = useInView(observerOptions);
+
+  const [aboutRef] = useInView(observerOptions);
+
+  const [skillsRef] = useInView(observerOptions);
+
+  const [projectsRef] = useInView(observerOptions);
+
+  const [contactRef] = useInView(observerOptions);
+
   return (
     <>
-      <Header />
-      <Navbar />
-      <About />
-      <Skills />
-      <SkillsDetails />
-      <Projects />
-      <Contact />
+      <Navbar ref={navBarRef} />
+
+      <Home ref={homeRef} />
+      <About ref={aboutRef} />
+      <Skills ref={skillsRef} />
+      <Projects ref={projectsRef} />
+      <Contact ref={contactRef} />
+
       <Footer />
     </>
   );

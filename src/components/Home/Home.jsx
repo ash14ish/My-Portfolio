@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home.css";
+
 import ActionButtons from "./ActionButtons";
 import MyPic from "../../assets/me.png";
 import HeaderSocial from "./HeaderSocial";
 
-const Home = () => {
+const Home = React.forwardRef((_, ref) => {
   return (
-    <header>
+    <header ref={ref} id="home">
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Ashish</h1>
@@ -25,6 +26,5 @@ const Home = () => {
       </div>
     </header>
   );
-};
-
+});
 export default Home;

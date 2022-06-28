@@ -1,10 +1,11 @@
 import React from "react";
 import "./Skills.css";
+import SkillsDetails from "../SkillsDetails/SkillsDetails";
 import { BsPatchCheckFill } from "react-icons/bs";
 
-const Skills = () => {
+const Skills = React.forwardRef((_, ref) => {
   return (
-    <section id="skills">
+    <section id="skills" ref={ref}>
       <h5>Technical Knowledge</h5>
       <h2>Skills I have</h2>
 
@@ -129,8 +130,9 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <SkillsDetails />
     </section>
   );
-};
+});
 
 export default Skills;
