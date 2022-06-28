@@ -37,7 +37,7 @@ const App = () => {
 
   const [skillsRef] = useInView(observerOptions);
 
-  const [projectsRef] = useInView(observerOptions);
+  const [projectsRef] = useInView({ ...observerOptions, threshold: 0 });
 
   const [contactRef] = useInView(observerOptions);
 
