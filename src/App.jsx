@@ -5,7 +5,6 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-import SkillsDetails from "./components/SkillsDetails/SkillsDetails";
 import Projects from "./components/Projects/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -14,7 +13,7 @@ const App = () => {
   const navBarRef = useRef();
 
   const observerOptions = {
-    threshold: 0.3,
+    threshold: 0.1,
     onChange: (_, entry) => {
       const allNavs = navBarRef.current.children;
 
