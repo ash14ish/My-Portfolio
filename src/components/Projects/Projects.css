@@ -60,6 +60,7 @@
     gap: 1.3rem;
   }
 }
+
 @media (max-width: 600px) {
   .projects__container {
     grid-template-columns: 1fr;
