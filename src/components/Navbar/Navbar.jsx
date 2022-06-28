@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
@@ -7,12 +7,6 @@ import { MdWorkOutline } from "react-icons/md";
 import { BsChatDots } from "react-icons/bs";
 
 const Navbar = React.forwardRef((_, ref) => {
-  const [activeNav, setActiveNav] = useState("home");
-
-  const activeNavToggleHandler = id => {
-    setActiveNav(id);
-  };
-
   return (
     <nav ref={ref}>
       <a href="#home">
