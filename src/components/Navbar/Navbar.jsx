@@ -15,43 +15,23 @@ const Navbar = React.forwardRef((_, ref) => {
 
   return (
     <nav ref={ref}>
-      <a
-        href="#home"
-        onClick={activeNavToggleHandler.bind(null, "home")}
-        className={activeNav === "home" ? "active" : ""}
-      >
+      <a href="#home">
         <AiOutlineHome />
       </a>
 
-      <a
-        href="#about"
-        onClick={activeNavToggleHandler.bind(null, "about")}
-        className={activeNav === "about" ? "active" : ""}
-      >
+      <a href="#about">
         <AiOutlineUser />
       </a>
 
-      <a
-        href="#skills"
-        onClick={activeNavToggleHandler.bind(null, "skills")}
-        className={activeNav === "skills" ? "active" : ""}
-      >
+      <a href="#skills">
         <VscTools />
       </a>
 
-      <a
-        href="#projects"
-        onClick={activeNavToggleHandler.bind(null, "projects")}
-        className={activeNav === "projects" ? "active" : ""}
-      >
+      <a href="#projects">
         <MdWorkOutline />
       </a>
 
-      <a
-        href="#contact"
-        onClick={activeNavToggleHandler.bind(null, "contact")}
-        className={activeNav === "contact" ? "active" : ""}
-      >
+      <a href="#contact">
         <BsChatDots />
       </a>
     </nav>
