@@ -44,13 +44,14 @@
   border-radius: 1rem;
   padding: 1.8rem 1rem;
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   transition: var(--transition);
-  cursor: default;
+  cursor: pointer;
 }
 
 .about__icon {

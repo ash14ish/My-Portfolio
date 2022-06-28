@@ -17,23 +17,23 @@ const About = React.forwardRef((_, ref) => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            <a href="#contact" className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>Fresher</small>
-            </article>
+            </a>
 
-            <article className="about__card">
+            <a href="#skills" className="about__card">
               <GiGraduateCap className="about__icon" />
               <h5>Qualification</h5>
               <small>B.Tech(78%)</small>
-            </article>
+            </a>
 
-            <article className="about__card">
+            <a href="#projects" className="about__card">
               <VscFolderActive className="about__icon" />
               <h5>Projects</h5>
               <small>10+ Completed</small>
-            </article>
+            </a>
           </div>
 
           <p>
