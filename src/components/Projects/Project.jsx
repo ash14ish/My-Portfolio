@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 
 import projectsData from "./projects-data.js";
@@ -7,11 +7,9 @@ import { SiNetlify, SiGithub } from "react-icons/si";
 const Projects = React.forwardRef((_, ref) => {
   const [showAll, setShowAll] = useState(false);
 
-  const projectsRef = useRef();
-
   const showAllProjectsHandler = () => {
     setShowAll(!showAll);
-    projectsRef.current.scrollIntoView({ behaviour: "smooth" });
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
   };
 
   const projects = item => (
@@ -47,7 +45,7 @@ const Projects = React.forwardRef((_, ref) => {
 
   return (
     <section id="projects" ref={ref}>
-      <h5 ref={projectsRef}>Fully Responsive</h5>
+      <h5>Fully Responsive</h5>
       <h2>Projects</h2>
 
       <div className="container projects__container">
