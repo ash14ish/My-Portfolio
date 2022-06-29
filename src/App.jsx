@@ -32,13 +32,9 @@ const App = () => {
   };
 
   const [homeRef] = useInView(observerOptions);
-
   const [aboutRef] = useInView(observerOptions);
-
   const [skillsRef] = useInView(observerOptions);
-
   const [projectsRef] = useInView({ ...observerOptions, threshold: 0 });
-
   const [contactRef] = useInView(observerOptions);
 
   return (
