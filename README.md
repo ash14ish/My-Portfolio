@@ -1,8 +1,8 @@
 # My-Portfolio
 
-\_This is my portfolion where you can see my personal information, my skills and my projects. You can also contact me through various ways mentioned here or you can directly shoot me a mail to hire me.
+_This is my portfolion where you can see my personal information, my skills and my projects. You can also contact me through various ways mentioned here or you can directly shoot me a mail to hire me._
 
-SO IF YOU LIKED MY WORK, YOU CAN HIRE ME. 😉 All of these are achieved by using React and other dependencies of react.\_
+_SO IF YOU LIKED MY WORK, YOU CAN HIRE ME. 😉_
 
 ## Project URL
 
