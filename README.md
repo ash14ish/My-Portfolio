@@ -35,9 +35,9 @@ Your app is ready to be deployed!
 ## Tech
 
 - [React.js](https://reactjs.org/)
-- [React-Icons]()
-- [React-Intersection-Observer]()
-- [Swiper.js]()
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [React-Intersection-Observer](https://www.npmjs.com/package/react-intersection-observer)
+- [Swiper.js](https://swiperjs.com/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -46,7 +46,7 @@ Your app is ready to be deployed!
 
 - Function based components.
 - Implementation of useState() and useEffect() hooks.
-- React.Fragment() are used instead of conventional div soup.
+- <React.Fragment> are used instead of conventional div soup.
 - React event management and lifting state up.
 - React Icons are used.
 - React intersection observer api is used for the scrolling effect of the navbar.
